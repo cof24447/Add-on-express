@@ -1,0 +1,18 @@
+{   
+    "name": "Color Blindness Simulator",
+    "description": "Simulate how your designs appear to people with different types of color blindness.",
+    "version": "1.0",
+    "category": "DESIGN", 
+    "icon": "icon.png", 
+    "initialWidth": 400, 
+    "initialHeight": 300, 
+    "html": "index.html", 
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
