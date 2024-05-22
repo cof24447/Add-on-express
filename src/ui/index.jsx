@@ -12,7 +12,7 @@ addOnUISdk.ready.then(async () => {
 
     // Get the proxy object, which is required
     // to call the APIs defined in the Document Sandbox runtime
-    // i.e., in the `code.js` file of this add-on.
+    // i.e., in the `code.js` file of this add-on.jjs
     const sandboxProxy = await runtime.apiProxy("documentSandbox");
 
     const root = createRoot(document.getElementById("root"));
